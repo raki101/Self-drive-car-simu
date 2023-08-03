@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    /* background-image: url("https://wallpaper.dog/large/20495214.jpg"); */
+    /* background-image: url("https://www.dexerto.com/cdn-cgi/image/width=640,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/05/29/bleach-tybw-part-2-shinjis-bankai.jpeg"); */
+    /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Green-Natureal-Desktop-Wallpapers-620x349.jpg"); */
+   background-image: url("https://wallpaper-house.com/data/out/5/wallpaper2you_72322.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background:lightgray; */
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column;
+    /* margin-left:300px;
+    margin-right:500px; */
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px  7px 5px;
+    margin:2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover{
+    background: blue;
+}
+#networkCanvas{
+    background:black;
+    border: 4px solid lime;
+    
+}
+#carCanvas{
+    background:black;
+
+}
